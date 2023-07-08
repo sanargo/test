@@ -4,7 +4,7 @@ import ProductCard from "../../Components/ProductCard/index";
 import Footer from "../../Components/Footer";
 import { Link } from "react-router-dom";
 
-import encantoMediterraneo from "publiccardsBannersBANNER-HOME-ENCANTO-MEDITERRANEO-LG.jpg";
+import encantoMediterraneo from "../../../public/cardsBanners/BANNER-HOME-ENCANTO-MEDITERRANEO-LG.jpg";
 
 function Home() {
   const oldCollection = [
