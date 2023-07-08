@@ -24,15 +24,15 @@ function Home() {
 
   const summerCollection = [
     {
-      image: "../../../public/cardsBanners/BLUSAS-ABR-23.jpg",
+      image: "cardsBanners/BLUSAS-ABR-23.jpg",
       title: "BLUSAS",
     },
     {
-      image: "/studio-f/public/cardsBanners/PANTALONES-ABR-23.jpg",
+      image: "cardsBanners/PANTALONES-ABR-23.jpg",
       title: "PANTALONES",
     },
     {
-      image: "/public/cardsBanners/VESTIDOS-ABR-23.jpg",
+      image: "cardsBanners/VESTIDOS-ABR-23.jpg",
       title: "VESTIDOS",
     },
     {
