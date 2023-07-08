@@ -4,25 +4,27 @@ import ProductCard from "../../Components/ProductCard/index";
 import Footer from "../../Components/Footer";
 import { Link } from "react-router-dom";
 
+import blusasAbr23 from "/studio-f/public/cardsBanners/BLUSAS-ABR-23.jpg";
+
 function Home() {
   const oldCollection = [
     {
       title: "",
-      img: "/studio-f/public/cardsBanners/COLOR-ROMANCE - BANNER-HOME-SM.jpg",
+      img: "/public/cardsBanners/COLOR-ROMANCE - BANNER-HOME-SM.jpg",
     },
     {
       title: "",
-      img: "/studio-f/public/cardsBanners/BANNER-HOME-STF-SUMMER-2023-MUMBAI-VIBES-SM.jpg",
+      img: "./studio-f/public/cardsBanners/BANNER-HOME-STF-SUMMER-2023-MUMBAI-VIBES-SM.jpg",
     },
     {
       title: "",
-      img: "/studio-f/public/cardsBanners/BANNER-HOME-Y2K-FEVER-SM.jpg",
+      img: "./public/cardsBanners/BANNER-HOME-Y2K-FEVER-SM.jpg",
     },
   ];
 
   const summerCollection = [
     {
-      image: "/studio-f/public/cardsBanners/BLUSAS-ABR-23.jpg",
+      image: blusasAbr23,
       title: "BLUSAS",
     },
     {
