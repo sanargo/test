@@ -4,7 +4,7 @@ import ProductCard from "../../Components/ProductCard/index";
 import Footer from "../../Components/Footer";
 import { Link } from "react-router-dom";
 
-// import blusasAbr23 from
+import encantoMediterraneo from "publiccardsBannersBANNER-HOME-ENCANTO-MEDITERRANEO-LG.jpg";
 
 function Home() {
   const oldCollection = [
@@ -79,7 +79,7 @@ function Home() {
       <div className="w-100 h-2/4">
         <Link to="/products">
           <img
-            src="public\cardsBanners\BANNER-HOME-ENCANTO-MEDITERRANEO-LG.jpg"
+            src={encantoMediterraneo}
             alt="Encanto collection photo"
             className="w-full h-full"
           />
