@@ -10,15 +10,15 @@ function Home() {
   const oldCollection = [
     {
       title: "",
-      img: "/public/cardsBanners/COLOR-ROMANCE - BANNER-HOME-SM.jpg",
+      img: "cardsBanners/COLOR-ROMANCE - BANNER-HOME-SM.jpg",
     },
     {
       title: "",
-      img: "./studio-f/public/cardsBanners/BANNER-HOME-STF-SUMMER-2023-MUMBAI-VIBES-SM.jpg",
+      img: "cardsBanners/BANNER-HOME-STF-SUMMER-2023-MUMBAI-VIBES-SM.jpg",
     },
     {
       title: "",
-      img: "./public/cardsBanners/BANNER-HOME-Y2K-FEVER-SM.jpg",
+      img: "cardsBanners/BANNER-HOME-Y2K-FEVER-SM.jpg",
     },
   ];
 
@@ -43,7 +43,7 @@ function Home() {
 
   const products = [
     {
-      img: "/studio-f/public/products/_stfco_producto_Bolsosycarteras_BLANCO_S402293_1.jpg",
+      img: "products/_stfco_producto_Bolsosycarteras_BLANCO_S402293_1.jpg",
       state: "NUEVO",
       title: "BOLSO DE HOMBRO CON CADENA Y FF FRONTAL",
       price: "$298.900",
