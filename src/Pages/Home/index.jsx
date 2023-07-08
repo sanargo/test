@@ -4,7 +4,7 @@ import ProductCard from "../../Components/ProductCard/index";
 import Footer from "../../Components/Footer";
 import { Link } from "react-router-dom";
 
-import blusasAbr23 from "/studio-f/public/cardsBanners/BLUSAS-ABR-23.jpg";
+// import blusasAbr23 from
 
 function Home() {
   const oldCollection = [
@@ -24,7 +24,7 @@ function Home() {
 
   const summerCollection = [
     {
-      image: blusasAbr23,
+      image: "/studio-f/public/cardsBanners/BLUSAS-ABR-23.jpg",
       title: "BLUSAS",
     },
     {
